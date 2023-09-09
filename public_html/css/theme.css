@@ -9639,4 +9639,57 @@ header .navbar-nav a:hover {
   }
 }
 
+.blog-section {
+  background-color: #fff;
+  margin-bottom: 56px;
+}
+
+.blog-section h3 {
+  font-family: "Bodoni", sans-serif;
+  text-align: left;
+  letter-spacing: 3px;
+  line-height: 4.5rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.blog-section .blog-item-footer {
+  background-color: #fff;
+  width: 85%;
+  top: 75%;
+  padding: 16px 56px;
+}
+
+.blog-section .blog-item-footer .blog-item-date {
+  font-family: "Bodoni", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-style: italic;
+  margin-bottom: 17px;
+}
+
+.blog-section .blog-item-footer .blog-item-link {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+}
+
+.blog-section .blog-item-footer .blog-item-link a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+@media (min-width: 576px) {
+  .blog-section .blog-item .blog-item-footer {
+    top: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-section .blog-item .blog-item-footer {
+    top: 65%;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
