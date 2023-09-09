@@ -13,7 +13,7 @@ html {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #D0B6B6;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
@@ -509,7 +509,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #D0B6B6;
   word-break: break-word;
 }
 
@@ -9583,6 +9583,43 @@ img {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+}
+
+header .navbar-brand {
+  max-width: 50%;
+}
+
+header .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #D0B6B6;
+}
+
+header .navbar-nav a {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  padding: 10px;
+}
+
+header .navbar-nav a:hover {
+  border-bottom: 1px solid #D0B6B6;
+}
+
+@media (min-width: 768px) {
+  header .navbar-nav li {
+    margin-left: 52px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .navbar-nav li {
+    margin-left: 72px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
