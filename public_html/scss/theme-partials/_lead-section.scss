@@ -1,0 +1,31 @@
+$lead-section-title-color: $white;
+
+.lead-section{
+    padding-top: 30px;
+
+    .lead-section-image{
+        .lead-section-title{
+            letter-spacing: 9px;
+            z-index: 20px;
+            color:$lead-section-title-color;
+        }
+
+    }
+    //lead section image end
+}
+//lead section end
+
+@media(min-width:768px){
+    .lead-section{
+
+
+        .lead-section-image{
+            .lead-section-title{
+                letter-spacing: 20px;
+                font-size: 6rem;
+            }
+        }
+        //lead section-image end
+    }
+    //lead section end
+}
