@@ -26,6 +26,9 @@ header{
             &:hover{
                 border-bottom: $navbar-border-hover;
             }
+            &.active{
+                border-bottom: $navbar-border-hover;
+            }
         }
     }//navbar-nav end
 }// header end

@@ -9618,6 +9618,10 @@ header .navbar-nav a:hover {
   border-bottom: 1px solid #ECD9D9;
 }
 
+header .navbar-nav a.active {
+  border-bottom: 1px solid #ECD9D9;
+}
+
 @media (min-width: 768px) {
   header .navbar-nav li {
     margin-left: 52px;
