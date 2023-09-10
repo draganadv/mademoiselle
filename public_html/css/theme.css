@@ -9810,4 +9810,20 @@ footer .social span {
   font-size: 22px;
 }
 
+.single-service-section {
+  padding: 120px 0;
+}
+
+.single-service-section h2 {
+  font-size: 44px;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.single-service-section p {
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=theme.css.map */
