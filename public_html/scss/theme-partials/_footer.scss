@@ -1,0 +1,14 @@
+$social-color:$pink;
+
+
+footer{
+    .social{
+    padding: 46px;
+    
+    span{
+        color:$social-color;
+        margin-left: 33px;
+        font-size: 22px;
+    }
+}
+}
