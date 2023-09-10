@@ -1,13 +1,22 @@
 $lead-section-title-color: $white;
-
+$lead-section-link-border: 1px solid $white;
 .lead-section{
-    padding-top: 30px;
+    padding-top: 60px;
 
     .lead-section-image{
         .lead-section-title{
             letter-spacing: 9px;
             z-index: 20px;
             color:$lead-section-title-color;
+
+        }
+        a{
+
+            text-decoration: none;
+            color:$white;
+            border: $lead-section-link-border;
+            padding: 7px 20px;
+
         }
 
     }

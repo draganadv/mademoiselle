@@ -9635,13 +9635,20 @@ header .navbar-nav a.active {
 }
 
 .lead-section {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .lead-section .lead-section-image .lead-section-title {
   letter-spacing: 9px;
   z-index: 20px;
   color: #fff;
+}
+
+.lead-section .lead-section-image a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 7px 20px;
 }
 
 @media (min-width: 768px) {
