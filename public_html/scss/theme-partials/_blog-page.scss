@@ -1,0 +1,22 @@
+
+$blog-nav-link-active-color:$black;
+
+.blog-page-nav{
+    text-align: center;
+    padding: 50px 20px;
+    .pagination{
+        text-align: center;
+        .page-item{
+            margin-left: 10px;
+            .page-link{
+                border-style: none;
+                font-family: $bodoni;
+                
+                &.active{
+                    color:$blog-nav-link-active-color;
+                }
+                
+            }
+        }
+    }
+}
