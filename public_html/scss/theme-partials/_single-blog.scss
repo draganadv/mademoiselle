@@ -1,7 +1,7 @@
 $single-blog-tags-bg:$gray-100;
 $single-blog-tags-color: $gray-900;
 .single-blog-section{
-    padding: 150px;
+    padding: 150px 0;
     .single-blog-item{
          .nav-date{
         font-family: $bodoni;
@@ -41,6 +41,7 @@ $single-blog-tags-color: $gray-900;
             text-decoration: none;
             color: $single-blog-tags-color;
             margin-right: 14px;
+            margin-bottom: 10px;
         }
     }
 }

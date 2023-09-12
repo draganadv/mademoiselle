@@ -9868,6 +9868,10 @@ footer .social span {
   margin-bottom: 11px;
 }
 
+.contact-section .contact-form {
+  margin-bottom: 80px;
+}
+
 .contact-section .contact-form .form-control {
   background-color: rgba(37, 61, 97, 0.02);
   border: none;
@@ -9893,6 +9897,12 @@ footer .social span {
   text-align: left;
 }
 
+@media (min-width: 992px) {
+  .contact-section {
+    position: relative;
+  }
+}
+
 .contact-links {
   padding-top: 50px;
   background-color: #ECD9D9;
@@ -9909,8 +9919,23 @@ footer .social span {
   line-height: 2.5rem;
 }
 
+.contact-map {
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .contact-map {
+    max-width: 45%;
+    position: absolute;
+    right: 0;
+    bottom: 180px;
+    align-items: end;
+    overflow: hidden;
+  }
+}
+
 .single-blog-section {
-  padding: 150px;
+  padding: 150px 0;
 }
 
 .single-blog-section .single-blog-item .nav-date {
@@ -9952,6 +9977,55 @@ footer .social span {
   text-decoration: none;
   color: #1E1E1E;
   margin-right: 14px;
+  margin-bottom: 10px;
+}
+
+.about-lead-section {
+  margin-bottom: 91px;
+}
+
+.about-section .about-section-item h2 {
+  font-size: 44px;
+  line-height: 5rem;
+  max-width: 50%;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.about-section .about-section-item .about-section-content {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 2.8rem;
+  text-align: left;
+  margin-bottom: 29px;
+}
+
+.about-section .about-news-item {
+  margin-bottom: 50px;
+}
+
+.about-section .blog-item-footer {
+  background-color: #fff;
+  width: 85;
+  top: 65%;
+  padding: 17px 18px 57px 18px;
+}
+
+.about-section .blog-item-footer .blog-item-date {
+  font-family: "Bodoni", sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.about-section .blog-item-footer .blog-item-link {
+  text-transform: uppercase;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.about-section .blog-item-footer .blog-item-link a {
+  color: #1E1E1E;
 }
 
 /*# sourceMappingURL=theme.css.map */

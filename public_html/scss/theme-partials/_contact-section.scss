@@ -17,7 +17,7 @@ $contact-section-button-border: 1px solid $gray-900;
            margin-bottom: 11px;
         }
     .contact-form{
-  
+  margin-bottom: 80px;
         .form-control{
             background-color: rgba(#253D61, 0.02);
             border:none;
@@ -43,7 +43,14 @@ $contact-section-button-border: 1px solid $gray-900;
     }
 }
 
+@media(min-width:992px){
     
+        .contact-section{
+        position: relative;
+    } 
+    
+   
+}
 
 .contact-links{
     padding-top: 50px;
@@ -63,4 +70,18 @@ $contact-section-button-border: 1px solid $gray-900;
     }
  
 
+}
+.contact-map{
+    max-width: 100%;
+}
+@media(min-width:992px){
+    .contact-map{
+    max-width: 45%;
+    position: absolute;
+  right: 0;
+ bottom: 180px;
+ align-items:end;
+ overflow: hidden;
+ 
+}
 }
