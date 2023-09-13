@@ -9591,6 +9591,21 @@ h3 {
   align-self: left;
   text-transform: uppercase;
   letter-spacing: 4px;
+  position: relative;
+  margin-bottom: 22px;
+  padding: 30px 0;
+}
+
+h3:after {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 2px;
+  position: absolute;
+  bottom: 10px;
+  left: 0%;
+  border-bottom: 1px solid #ECD9D9;
+  text-align: left;
 }
 
 header .navbar-brand {
@@ -9635,7 +9650,7 @@ header .navbar-nav a.active {
 }
 
 .lead-section {
-  padding-top: 60px;
+  padding-top: 85px;
 }
 
 .lead-section .lead-section-image .lead-section-title {
@@ -9674,9 +9689,9 @@ header .navbar-nav a.active {
 
 .blog-section .blog-item-footer {
   background-color: #fff;
-  width: 85%;
+  width: 90%;
   top: 75%;
-  padding: 16px 56px;
+  padding: 20px 17px 57px 17px;
 }
 
 .blog-section .blog-item-footer .blog-item-date {
@@ -9722,11 +9737,13 @@ header .navbar-nav a.active {
 .services-section .services-section-item {
   background-color: #F5F5F5;
   align-items: center;
+  text-align: left;
+  padding: 25px;
 }
 
 .services-section .services-section-item p {
   font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-size: 3.6rem;
   text-transform: uppercase;
   line-height: 4.4rem;
   margin-bottom: 36px;
@@ -9745,7 +9762,19 @@ header .navbar-nav a.active {
 }
 
 @media (min-width: 576px) {
-  .services-section-item {
+  .services-section .services-section-item {
+    padding: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-section .services-section-item {
+    padding: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .services-section .services-section-item {
     padding: 60px;
   }
 }
@@ -9754,12 +9783,12 @@ header .navbar-nav a.active {
   margin-bottom: 54px;
 }
 
-.team-section .carousel-item {
-  padding: 54px;
+.team-section .carousel-item .slider-item {
   border: 1px solid #ECD9D9;
+  padding: 50px 95px;
 }
 
-.team-section .team-section-article h4 {
+.team-section .carousel-item .slider-item .team-section-article h4 {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   font-size: 30px;
@@ -9767,13 +9796,13 @@ header .navbar-nav a.active {
   margin-bottom: 35px;
 }
 
-.team-section .team-section-article p {
+.team-section .carousel-item .slider-item .team-section-article p {
   font-weight: 300;
   text-align: left;
   margin-bottom: 40px;
 }
 
-.carousel-indicators {
+.team-section .carousel-indicators {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -9786,10 +9815,11 @@ header .navbar-nav a.active {
   padding-left: 0;
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: 40px;
   list-style: none;
 }
 
-.carousel-indicators li {
+.team-section .carousel-indicators li {
   width: 8px;
   height: 8px;
   margin-right: 9px;
@@ -9803,7 +9833,7 @@ header .navbar-nav a.active {
   background-color: #ECD9D9;
 }
 
-.carousel-indicators li:active {
+.team-section .carousel-indicators li.active {
   background-color: #ca9595;
 }
 
@@ -9818,10 +9848,14 @@ footer .social span {
 }
 
 .single-service-section {
-  padding: 120px 0;
+  padding-top: 120px;
 }
 
-.single-service-section h2 {
+.single-service-section .single-service-item {
+  padding: 20px 10px;
+}
+
+.single-service-section .single-service-item h2 {
   font-size: 44px;
   line-height: 50px;
   text-align: left;
@@ -9829,8 +9863,12 @@ footer .social span {
   margin-bottom: 25px;
 }
 
-.single-service-section p {
+.single-service-section .single-service-item p {
   font-weight: 300;
+}
+
+.blog-item {
+  margin-bottom: 80px;
 }
 
 .blog-page-nav {
@@ -9980,7 +10018,7 @@ footer .social span {
   margin-bottom: 10px;
 }
 
-.about-lead-section {
+.lead-section {
   margin-bottom: 91px;
 }
 
@@ -9993,29 +10031,52 @@ footer .social span {
   text-align: left;
 }
 
+.about-section .about-section-item img {
+  margin-bottom: 50px;
+}
+
 .about-section .about-section-item .about-section-content {
   font-weight: 300;
   font-size: 20px;
   line-height: 2.8rem;
   text-align: left;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
+}
+
+.about-section .search-form {
+  margin-bottom: 20px;
+}
+
+.about-section .search-form .form-control {
+  border: 1px solid #1E1E1E;
+  padding: 30px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.about-section .search-form span {
+  border: 1px solid #1E1E1E;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #848484;
 }
 
 .about-section .about-news-item {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .about-section .blog-item-footer {
   background-color: #fff;
-  width: 85;
-  top: 65%;
-  padding: 17px 18px 57px 18px;
+  width: 90%;
+  top: 75%;
+  padding: 20px 17px 57px 17px;
 }
 
 .about-section .blog-item-footer .blog-item-date {
   font-family: "Bodoni", sans-serif;
   text-align: center;
   font-style: italic;
+  margin-bottom: 15px;
 }
 
 .about-section .blog-item-footer .blog-item-link {

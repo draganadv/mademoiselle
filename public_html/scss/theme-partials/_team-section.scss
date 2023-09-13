@@ -7,11 +7,12 @@ $team-slider-border: 1px solid $pink;
     }
     .carousel-item{
        
-              padding: 54px;
-                border:$team-slider-border;
+              
+        .slider-item{
+            border:$team-slider-border;
+            padding: 50px 95px;
             
-        }
-        .team-section-article{
+             .team-section-article{
             h4{
                 text-transform: uppercase;
                 font-family: $lato;
@@ -25,8 +26,12 @@ $team-slider-border: 1px solid $pink;
                 margin-bottom: 40px;
             }
         }
-    }
-    .carousel-indicators{
+    
+
+        }//slider-item end
+        }//carousel-item-end
+       
+            .carousel-indicators{
         position: absolute;
         right: 0;
         bottom: 0;
@@ -39,6 +44,7 @@ $team-slider-border: 1px solid $pink;
         padding-left: 0;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 40px;
         list-style: none;
 
         li {
@@ -54,12 +60,12 @@ $team-slider-border: 1px solid $pink;
             transition: opacity 0.6s ease;
             background-color:$team-indicators-bg-color;
             
-            &:active{
+            &.active{
                 background-color:darken($team-indicators-bg-color, 20%);
             }
         }
-        
+        }
 
-    }
+    }//team-section end
 
 

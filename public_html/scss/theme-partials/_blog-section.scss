@@ -12,12 +12,13 @@ margin-bottom: 56px;
         line-height: 4.5rem;
         text-transform: uppercase;
         margin-bottom: 25px;
+       
     }
     .blog-item-footer{
         background-color: $blog-item-footer-bg;
-        width: 85%;
+        width: 90%;
         top:75%;
-        padding: 16px 56px;
+          padding: 20px 17px 57px 17px;
         
         .blog-item-date{
             font-family: $bodoni;
