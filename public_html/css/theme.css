@@ -9837,14 +9837,31 @@ header .navbar-nav a.active {
   background-color: #ca9595;
 }
 
-footer .social {
-  padding: 46px;
+footer {
+  padding: 50px 0;
 }
 
-footer .social span {
+footer .social a {
   color: #ECD9D9;
-  margin-left: 33px;
-  font-size: 22px;
+  font-size: 2.3rem;
+  transition: 1s linear;
+  margin: 19px 15px;
+}
+
+footer .social a:hover {
+  transform: rotate(360deg);
+}
+
+footer .copyright {
+  color: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 4.1rem;
+}
+
+footer .copyright a {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
 }
 
 .single-service-section {
